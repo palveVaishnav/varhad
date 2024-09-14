@@ -2,28 +2,28 @@ import { ArrowDownIcon } from "@radix-ui/react-icons";
 import GradualSpacing from "./magicui/gradual-spacing";
 import { Button } from "./ui/button";
 import { HeroBento } from "./HeroBento";
-import Image from "next/image";
+// import Image from "next/image";
 
 export function HeroSection() {
     return (
         <div className="grid place-content-center min-h-screen relative overflow-hidden mb-20">
             {/* Background Image */}
             <div className="absolute inset-0 -z-10 ">
-                <Image
+                {/* <Image
                     src={'https://as1.ftcdn.net/v2/jpg/07/53/59/10/1000_F_753591047_p4n9FRwZiQpwcG6M63I8zV8MAhDtGA3o.jpg'}
                     alt="Background Image"
                     layout="fill"
                     objectFit="cover"
-                />
+                /> */}
             </div>
 
             {/* Foreground Content */}
             <div className="p-4 grid gap-4 place-content-center bg-transparent z-10">
                 <GradualSpacing
-                    className="font-display text-center text-4xl font-bold tracking-[-0.1em] text-white md:text-7xl md:leading-[5rem]"
+                    className="font-display text-center text-4xl font-bold tracking-[-0.1em]  md:text-7xl md:leading-[5rem]"
                     text="The Varhad Group"
                 />
-                <div className="font-serif grid place-content-center text-center text-white">
+                <div className="font-serif grid place-content-center text-center ">
                     Empowering Farmers, Artisans, and Businesses in India. Incubating 1000 FPCs and APCs, connecting 1 million farmers and artisans.
                 </div>
             </div>
