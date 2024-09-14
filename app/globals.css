@@ -73,4 +73,8 @@
   .slowHover {
     @apply transition-all ease-in-out duration-500
   }
+
+  .thirdCard {
+    @apply border border-black p-4 rounded-3xl;
+  }
 }

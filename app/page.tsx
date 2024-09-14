@@ -1,6 +1,8 @@
 import { NavigationBar } from "@/components/NavigationBar";
 import { HeroSection } from "../components/HeroSection";
-import { SecondSection } from "@/components/SecondSection";
+import { ThirdSection } from "@/components/ThirdSection";
+// import { SecondSection } from "@/components/SecondSection";
+
 
 export default function Home() {
     return (
@@ -11,7 +13,8 @@ export default function Home() {
             {/* bg-gradient-to-bl from-[#709a5a] to-[#4f9039] */}
             <div className="pt-20 min-h-screen">
                 <HeroSection />
-                <SecondSection />
+                {/* <SecondSection /> */}
+                <ThirdSection />
             </div>
         </div>
     )
