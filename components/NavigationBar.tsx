@@ -1,6 +1,6 @@
 export function NavigationBar() {
     return (
-        <div className="flex border justify-around items-center bg-white z-10">
+        <div className="flex border-black shadow-sm justify-around items-center z-10 backdrop-blur-sm">
             {/* Logo */}
             <div className="p-2 font-bold font-mono flex items-center">
                 The{' '}<span className="bg-orange-600 text-white p-2 rounded-md">Varhad</span>{' '}Group.
